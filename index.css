@@ -1,0 +1,24 @@
+.fondo{
+    background-color: #E9D5C3;
+}
+
+.maxImgSize100{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.maxSizeCarrousel{
+    max-width: 400px; 
+    max-height: 400px;
+}
+.alinearTexto{
+    text-align: center;
+    overflow-wrap: break-word;
+    /*para evitar que sobresalga el texto si es una palabra muy larga*/
+}
+.centerCarousel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
